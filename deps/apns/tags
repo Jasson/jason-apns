@@ -1,0 +1,211 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+ADV_COL	src/apns_mochijson2.erl	/^-define(ADV_COL(S, N), S#decoder{offset=N+S#decoder.offset,$/;"	d
+BIG_POW	src/apns_mochinum.erl	/^-define(BIG_POW, 4503599627370496).$/;"	d
+DEBUG	include/apns.hrl	/^-define(DEBUG(Input, Args), "").   $/;"	d
+DEVICE_TOKEN	tests/apns_tests.erl	/^-define(DEVICE_TOKEN, "139D3CAB173FB230B97E4A19D288E3FBCD4B037F9B18ABA17FE4CDE72085E994").$/;"	d
+DUKE_PROD_TOKEN	tests/apns_tests.erl	/^-define(DUKE_PROD_TOKEN, "556890033300BD4140BECF44963CEBAA5C082784B507CB23C79B899D3CC1726A").$/;"	d
+EPOCH	src/apns.erl	/^-define(EPOCH, 62167219200).$/;"	d
+ERROR	include/apns.hrl	/^-define(ERROR(Input, Args),$/;"	d
+FLOAT_BIAS	src/apns_mochinum.erl	/^-define(FLOAT_BIAS, 1022).$/;"	d
+INC_CHAR	src/apns_mochijson2.erl	/^-define(INC_CHAR(S, C),$/;"	d
+INC_COL	src/apns_mochijson2.erl	/^-define(INC_COL(S), S#decoder{offset=1+S#decoder.offset,$/;"	d
+INC_LINE	src/apns_mochijson2.erl	/^-define(INC_LINE(S), S#decoder{offset=1+S#decoder.offset,$/;"	d
+IS_WHITESPACE	src/apns_mochijson2.erl	/^-define(IS_WHITESPACE(C),$/;"	d
+MIN_EXP	src/apns_mochinum.erl	/^-define(MIN_EXP, -1074).$/;"	d
+Q	src/apns_mochijson2.erl	/^-define(Q, $\\").$/;"	d
+RUN	Makefile	/^RUN := +Bc +K true -smp enable -pa ebin -s crypto -s inets -s ssl$/;"	m
+TEST_CONNECTION	tests/apns_tests.erl	/^-define(TEST_CONNECTION, 'test-connection').$/;"	d
+apns	src/apns.erl	/^-module(apns).$/;"	m
+apns_app	src/apns_app.erl	/^-module(apns_app).$/;"	m
+apns_connection	include/apns.hrl	/^-record(apns_connection, {$/;"	r
+apns_connection	src/apns_connection.erl	/^-module(apns_connection).$/;"	m
+apns_mochijson2	src/apns_mochijson2.erl	/^-module(apns_mochijson2).$/;"	m
+apns_mochinum	src/apns_mochinum.erl	/^-module(apns_mochinum).$/;"	m
+apns_msg	include/apns.hrl	/^-record(apns_msg, {id = apns:message_id()       :: binary(),$/;"	r
+apns_sup	src/apns_sup.erl	/^-module(apns_sup).$/;"	m
+apns_test_	tests/apns_tests.erl	/^apns_test_() ->$/;"	f	module:apns_tests
+apns_tests	tests/apns_tests.erl	/^-module(apns_tests).$/;"	m
+assertLess	include/eunit.hrl	/^-define(assertLess(Min, Max),$/;"	d
+assertLessOrEq	include/eunit.hrl	/^-define(assertLessOrEq(Min, Max),$/;"	d
+assertMember	include/eunit.hrl	/^-define(assertMember(Member, List),$/;"	d
+assertNotMember	include/eunit.hrl	/^-define(assertNotMember(Member, List),$/;"	d
+bin_to_hexstr	src/apns_connection.erl	/^bin_to_hexstr(Binary) ->$/;"	f	module:apns_connection
+build_payload	src/apns_connection.erl	/^build_payload(Params, Extra) ->$/;"	f	module:apns_connection
+code_change	src/apns_connection.erl	/^code_change(_OldVsn, State, _Extra) ->  {ok, State}.$/;"	f	module:apns_connection
+connect	src/apns.erl	/^connect() ->$/;"	f	module:apns
+connect	src/apns.erl	/^connect(Connection) when is_record(Connection, apns_connection) ->$/;"	f	module:apns
+connect	src/apns.erl	/^connect(Fun) when is_function(Fun, 1) ->$/;"	f	module:apns
+connect	src/apns.erl	/^connect(Fun) when is_function(Fun, 2) ->$/;"	f	module:apns
+connect	src/apns.erl	/^connect(Name) when is_atom(Name) ->$/;"	f	module:apns
+connect	src/apns.erl	/^connect(Name, Connection) when is_record(Connection, apns_connection) ->$/;"	f	module:apns
+connect	src/apns.erl	/^connect(Name, ErrorFun, FeedbackFun) ->$/;"	f	module:apns
+connect	src/apns.erl	/^connect(Name, Fun) when is_function(Fun, 1) ->$/;"	f	module:apns
+connect	src/apns.erl	/^connect(Name, Fun) when is_function(Fun, 2) ->$/;"	f	module:apns
+decode	src/apns_mochijson2.erl	/^decode(S) ->$/;"	f	module:apns_mochijson2
+decode1	src/apns_mochijson2.erl	/^decode1(B, S=#decoder{state=null}) ->$/;"	f	module:apns_mochijson2
+decode_array	src/apns_mochijson2.erl	/^decode_array(B, S) ->$/;"	f	module:apns_mochijson2
+decode_array	src/apns_mochijson2.erl	/^decode_array(B, S=#decoder{state=any}, Acc) ->$/;"	f	module:apns_mochijson2
+decode_array	src/apns_mochijson2.erl	/^decode_array(B, S=#decoder{state=comma}, Acc) ->$/;"	f	module:apns_mochijson2
+decode_object	src/apns_mochijson2.erl	/^decode_object(B, S) ->$/;"	f	module:apns_mochijson2
+decode_object	src/apns_mochijson2.erl	/^decode_object(B, S=#decoder{state=comma}, Acc) ->$/;"	f	module:apns_mochijson2
+decode_object	src/apns_mochijson2.erl	/^decode_object(B, S=#decoder{state=key}, Acc) ->$/;"	f	module:apns_mochijson2
+decoder	src/apns_mochijson2.erl	/^-record(decoder, {object_hook = null  :: null | fun((term()) -> json_object()),$/;"	r
+decoder	src/apns_mochijson2.erl	/^decoder(Options) ->$/;"	f	module:apns_mochijson2
+default_connection	src/apns.erl	/^default_connection() ->$/;"	f	module:apns
+digits	src/apns_mochinum.erl	/^digits(0.0) ->$/;"	f	module:apns_mochinum
+digits	src/apns_mochinum.erl	/^digits(Float) ->$/;"	f	module:apns_mochinum
+digits	src/apns_mochinum.erl	/^digits(N) when is_integer(N) ->$/;"	f	module:apns_mochinum
+digits1	src/apns_mochinum.erl	/^digits1(Float, Exp, Frac) ->$/;"	f	module:apns_mochinum
+disconnect	src/apns.erl	/^disconnect(ConnId) ->$/;"	f	module:apns
+do_build_payload	src/apns_connection.erl	/^do_build_payload([], Payload) ->$/;"	f	module:apns_connection
+do_build_payload	src/apns_connection.erl	/^do_build_payload([{Key,Value}|Params], Payload) ->$/;"	f	module:apns_connection
+encode	src/apns_mochijson2.erl	/^encode(Any) ->$/;"	f	module:apns_mochijson2
+encoder	src/apns_mochijson2.erl	/^-record(encoder, {handler = null  :: null | fun((term()) -> term()),$/;"	r
+encoder	src/apns_mochijson2.erl	/^encoder(Options) ->$/;"	f	module:apns_mochijson2
+expiry	src/apns.erl	/^expiry(Date) ->$/;"	f	module:apns
+expiry	src/apns.erl	/^expiry(Secs) when is_integer(Secs) ->$/;"	f	module:apns
+expiry	src/apns.erl	/^expiry(none) -> 0;$/;"	f	module:apns
+fail	include/eunit.hrl	/^-define(fail(Msg),$/;"	d
+fixup	src/apns_mochinum.erl	/^fixup(R, S, MPlus, MMinus, K, LowOk, HighOk) ->$/;"	f	module:apns_mochinum
+frexp	src/apns_mochinum.erl	/^frexp(F) ->$/;"	f	module:apns_mochinum
+frexp1	src/apns_mochinum.erl	/^frexp1({Sign, 0, Frac}) ->$/;"	f	module:apns_mochinum
+frexp1	src/apns_mochinum.erl	/^frexp1({Sign, Exp, Frac}) ->$/;"	f	module:apns_mochinum
+frexp1	src/apns_mochinum.erl	/^frexp1({_Sign, 0, 0}) ->$/;"	f	module:apns_mochinum
+generate	src/apns_mochinum.erl	/^generate(R0, S, MPlus, MMinus, LowOk, HighOk) ->$/;"	f	module:apns_mochinum
+get_env	src/apns.erl	/^get_env(K, Def) ->$/;"	f	module:apns
+get_value	src/apns_mochijson2.erl	/^get_value(Key, JsonObj) ->$/;"	f	module:apns_mochijson2
+get_value	src/apns_mochijson2.erl	/^get_value(Key, JsonObj, Default) when is_binary(Key) ->$/;"	f	module:apns_mochijson2
+get_value	src/apns_mochijson2.erl	/^get_value(Key, JsonObj, Default) when is_list(Key) ->$/;"	f	module:apns_mochijson2
+handle_call	src/apns_connection.erl	/^handle_call(Request, _From, State) ->$/;"	f	module:apns_connection
+handle_cast	src/apns_connection.erl	/^handle_cast(Msg, State) when is_record(Msg, apns_msg) ->$/;"	f	module:apns_connection
+handle_cast	src/apns_connection.erl	/^handle_cast(stop, State) ->$/;"	f	module:apns_connection
+handle_info	src/apns_connection.erl	/^handle_info(Request, State) ->$/;"	f	module:apns_connection
+handle_info	src/apns_connection.erl	/^handle_info(reconnect, State = #state{connection = Connection}) ->$/;"	f	module:apns_connection
+handle_info	src/apns_connection.erl	/^handle_info({ssl, SslSocket, Data}, State = #state{in_socket  = SslSocket,$/;"	f	module:apns_connection
+handle_info	src/apns_connection.erl	/^handle_info({ssl, SslSocket, Data}, State = #state{out_socket = SslSocket,$/;"	f	module:apns_connection
+handle_info	src/apns_connection.erl	/^handle_info({ssl_closed, SslSocket}, State = #state{in_socket = SslSocket,$/;"	f	module:apns_connection
+handle_info	src/apns_connection.erl	/^handle_info({ssl_closed, SslSocket}, State = #state{out_socket = SslSocket}) ->$/;"	f	module:apns_connection
+hexdigit	src/apns_mochijson2.erl	/^hexdigit(C) when C =< 15 ->$/;"	f	module:apns_mochijson2
+hexdigit	src/apns_mochijson2.erl	/^hexdigit(C) when C >= 0, C =< 9 ->$/;"	f	module:apns_mochijson2
+hexstr_to_bin	src/apns_connection.erl	/^hexstr_to_bin(S) ->$/;"	f	module:apns_connection
+hexstr_to_bin	src/apns_connection.erl	/^hexstr_to_bin([$ |T], Acc) ->$/;"	f	module:apns_connection
+hexstr_to_bin	src/apns_connection.erl	/^hexstr_to_bin([X,Y|T], Acc) ->$/;"	f	module:apns_connection
+hexstr_to_bin	src/apns_connection.erl	/^hexstr_to_bin([], Acc) ->$/;"	f	module:apns_connection
+init	src/apns_connection.erl	/^init(Connection) ->$/;"	f	module:apns_connection
+init	src/apns_sup.erl	/^init(_) ->$/;"	f	module:apns_sup
+insert_decimal	src/apns_mochinum.erl	/^insert_decimal(0, S) ->$/;"	f	module:apns_mochinum
+insert_decimal	src/apns_mochinum.erl	/^insert_decimal(Place, S) ->$/;"	f	module:apns_mochinum
+insert_decimal	src/apns_mochinum.erl	/^insert_decimal(Place, S) when Place > -6 ->$/;"	f	module:apns_mochinum
+insert_decimal	src/apns_mochinum.erl	/^insert_decimal(Place, S) when Place > 0 ->$/;"	f	module:apns_mochinum
+insert_decimal_exp	src/apns_mochinum.erl	/^insert_decimal_exp(Place, S) ->$/;"	f	module:apns_mochinum
+int_ceil	src/apns_mochinum.erl	/^int_ceil(X) ->$/;"	f	module:apns_mochinum
+int_pow	src/apns_mochinum.erl	/^int_pow(X, N) when N > 0 ->$/;"	f	module:apns_mochinum
+int_pow	src/apns_mochinum.erl	/^int_pow(X, N, R) ->$/;"	f	module:apns_mochinum
+int_pow	src/apns_mochinum.erl	/^int_pow(X, N, R) when N < 2 ->$/;"	f	module:apns_mochinum
+int_pow	src/apns_mochinum.erl	/^int_pow(_X, 0) ->$/;"	f	module:apns_mochinum
+json_bin_is_safe	src/apns_mochijson2.erl	/^json_bin_is_safe(<<>>) ->$/;"	f	module:apns_mochijson2
+json_bin_is_safe	src/apns_mochijson2.erl	/^json_bin_is_safe(<<C, Rest\/binary>>) ->$/;"	f	module:apns_mochijson2
+json_decode	src/apns_mochijson2.erl	/^json_decode(B, S) ->$/;"	f	module:apns_mochijson2
+json_decode	src/apns_mochijson2.erl	/^json_decode(L, S) when is_list(L) ->$/;"	f	module:apns_mochijson2
+json_encode	src/apns_mochijson2.erl	/^json_encode(Array, State) when is_list(Array) ->$/;"	f	module:apns_mochijson2
+json_encode	src/apns_mochijson2.erl	/^json_encode(Bad, #encoder{handler=null}) ->$/;"	f	module:apns_mochijson2
+json_encode	src/apns_mochijson2.erl	/^json_encode(Bad, State=#encoder{handler=Handler}) ->$/;"	f	module:apns_mochijson2
+json_encode	src/apns_mochijson2.erl	/^json_encode(F, _State) when is_float(F) ->$/;"	f	module:apns_mochijson2
+json_encode	src/apns_mochijson2.erl	/^json_encode(I, _State) when is_integer(I) ->$/;"	f	module:apns_mochijson2
+json_encode	src/apns_mochijson2.erl	/^json_encode(S, State) when is_binary(S); is_atom(S) ->$/;"	f	module:apns_mochijson2
+json_encode	src/apns_mochijson2.erl	/^json_encode(false, _State) ->$/;"	f	module:apns_mochijson2
+json_encode	src/apns_mochijson2.erl	/^json_encode(null, _State) ->$/;"	f	module:apns_mochijson2
+json_encode	src/apns_mochijson2.erl	/^json_encode(true, _State) ->$/;"	f	module:apns_mochijson2
+json_encode	src/apns_mochijson2.erl	/^json_encode({Props}, State) when is_list(Props) ->$/;"	f	module:apns_mochijson2
+json_encode	src/apns_mochijson2.erl	/^json_encode({json, IoList}, _State) ->$/;"	f	module:apns_mochijson2
+json_encode_array	src/apns_mochijson2.erl	/^json_encode_array(L, State) ->$/;"	f	module:apns_mochijson2
+json_encode_array	src/apns_mochijson2.erl	/^json_encode_array([], _State) ->$/;"	f	module:apns_mochijson2
+json_encode_proplist	src/apns_mochijson2.erl	/^json_encode_proplist(Props, State) ->$/;"	f	module:apns_mochijson2
+json_encode_proplist	src/apns_mochijson2.erl	/^json_encode_proplist([], _State) ->$/;"	f	module:apns_mochijson2
+json_encode_string	src/apns_mochijson2.erl	/^json_encode_string(A, State) when is_atom(A) ->$/;"	f	module:apns_mochijson2
+json_encode_string	src/apns_mochijson2.erl	/^json_encode_string(B, State) when is_binary(B) ->$/;"	f	module:apns_mochijson2
+json_encode_string	src/apns_mochijson2.erl	/^json_encode_string(I, _State) when is_integer(I) ->$/;"	f	module:apns_mochijson2
+json_encode_string	src/apns_mochijson2.erl	/^json_encode_string(L, State) when is_list(L) ->$/;"	f	module:apns_mochijson2
+json_encode_string_unicode	src/apns_mochijson2.erl	/^json_encode_string_unicode([C | Cs], State, Acc) ->$/;"	f	module:apns_mochijson2
+json_encode_string_unicode	src/apns_mochijson2.erl	/^json_encode_string_unicode([], _State, Acc) ->$/;"	f	module:apns_mochijson2
+json_string_is_safe	src/apns_mochijson2.erl	/^json_string_is_safe([C | Rest]) ->$/;"	f	module:apns_mochijson2
+json_string_is_safe	src/apns_mochijson2.erl	/^json_string_is_safe([]) ->$/;"	f	module:apns_mochijson2
+kip_deps	Makefile	/^	rebar skip_deps=true build-plt$/;"	m
+kip_deps	Makefile	/^	rebar skip_deps=true doc$/;"	m
+kip_deps	Makefile	/^	rebar skip_deps=true xref$/;"	m
+loc_alert	include/localized.hrl	/^-record(loc_alert, {body    = none  :: none | string(),$/;"	r
+log2floor	src/apns_mochinum.erl	/^log2floor(0, N) ->$/;"	f	module:apns_mochinum
+log2floor	src/apns_mochinum.erl	/^log2floor(Int) ->$/;"	f	module:apns_mochinum
+log2floor	src/apns_mochinum.erl	/^log2floor(Int, N) ->$/;"	f	module:apns_mochinum
+log_error	tests/apns_tests.erl	/^log_error(MsgId, Status) ->$/;"	f	module:apns_tests
+log_feedback	tests/apns_tests.erl	/^log_feedback(Token) ->$/;"	f	module:apns_tests
+main	tests/apns_tests.erl	/^main() ->$/;"	f	module:apns_tests
+make_object	src/apns_mochijson2.erl	/^make_object(V, #decoder{object_hook=Hook}) ->$/;"	f	module:apns_mochijson2
+make_object	src/apns_mochijson2.erl	/^make_object(V, #decoder{object_hook=null}) ->$/;"	f	module:apns_mochijson2
+message_id	src/apns.erl	/^message_id() ->$/;"	f	module:apns
+parse_decoder_options	src/apns_mochijson2.erl	/^parse_decoder_options([], State) ->$/;"	f	module:apns_mochijson2
+parse_decoder_options	src/apns_mochijson2.erl	/^parse_decoder_options([{object_hook, Hook} | Rest], State) ->$/;"	f	module:apns_mochijson2
+parse_encoder_options	src/apns_mochijson2.erl	/^parse_encoder_options([], State) ->$/;"	f	module:apns_mochijson2
+parse_encoder_options	src/apns_mochijson2.erl	/^parse_encoder_options([{handler, Handler} | Rest], State) ->$/;"	f	module:apns_mochijson2
+parse_encoder_options	src/apns_mochijson2.erl	/^parse_encoder_options([{utf8, Switch} | Rest], State) ->$/;"	f	module:apns_mochijson2
+parse_status	src/apns_connection.erl	/^parse_status(0) -> no_errors;$/;"	f	module:apns_connection
+parse_status	src/apns_connection.erl	/^parse_status(1) -> processing_error;$/;"	f	module:apns_connection
+parse_status	src/apns_connection.erl	/^parse_status(2) -> missing_token;$/;"	f	module:apns_connection
+parse_status	src/apns_connection.erl	/^parse_status(3) -> missing_topic;$/;"	f	module:apns_connection
+parse_status	src/apns_connection.erl	/^parse_status(4) -> missing_payload;$/;"	f	module:apns_connection
+parse_status	src/apns_connection.erl	/^parse_status(5) -> missing_token_size;$/;"	f	module:apns_connection
+parse_status	src/apns_connection.erl	/^parse_status(6) -> missing_topic_size;$/;"	f	module:apns_connection
+parse_status	src/apns_connection.erl	/^parse_status(7) -> missing_payload_size;$/;"	f	module:apns_connection
+parse_status	src/apns_connection.erl	/^parse_status(8) -> invalid_token;$/;"	f	module:apns_connection
+parse_status	src/apns_connection.erl	/^parse_status(_) -> unknown.$/;"	f	module:apns_connection
+run	tests/apns_tests.erl	/^run() ->$/;"	f	module:apns_tests
+scale	src/apns_mochinum.erl	/^scale(R, S, MPlus, MMinus, LowOk, HighOk, Float) ->$/;"	f	module:apns_mochinum
+send_badge	src/apns.erl	/^send_badge(ConnId, DeviceToken, Badge) ->$/;"	f	module:apns
+send_message	src/apns.erl	/^send_message(ConnId, DeviceToken, Alert) ->$/;"	f	module:apns
+send_message	src/apns.erl	/^send_message(ConnId, DeviceToken, Alert, Badge) ->$/;"	f	module:apns
+send_message	src/apns.erl	/^send_message(ConnId, DeviceToken, Alert, Badge, Sound) ->$/;"	f	module:apns
+send_message	src/apns.erl	/^send_message(ConnId, DeviceToken, Alert, Badge, Sound, Expiry) ->$/;"	f	module:apns
+send_message	src/apns.erl	/^send_message(ConnId, DeviceToken, Alert, Badge, Sound, Expiry, ExtraArgs) ->$/;"	f	module:apns
+send_message	src/apns.erl	/^send_message(ConnId, Msg) ->$/;"	f	module:apns
+send_message	src/apns.erl	/^send_message(ConnId, MsgId, DeviceToken, Alert, Badge, Sound, Expiry, ExtraArgs) ->$/;"	f	module:apns
+send_message	src/apns_connection.erl	/^send_message(ConnId, Msg) ->$/;"	f	module:apns_connection
+send_payload	src/apns_connection.erl	/^send_payload(Socket, MsgId, Expiry, BinToken, Payload) ->$/;"	f	module:apns_connection
+start	src/apns.erl	/^start() ->$/;"	f	module:apns
+start	src/apns_app.erl	/^start(_StartType, _StartArgs) ->$/;"	f	module:apns_app
+start_connection	src/apns_sup.erl	/^start_connection(Connection) ->$/;"	f	module:apns_sup
+start_connection	src/apns_sup.erl	/^start_connection(Name, Connection) ->$/;"	f	module:apns_sup
+start_link	src/apns_connection.erl	/^start_link(Connection) ->$/;"	f	module:apns_connection
+start_link	src/apns_connection.erl	/^start_link(Name, Connection) ->$/;"	f	module:apns_connection
+start_link	src/apns_sup.erl	/^start_link() ->$/;"	f	module:apns_sup
+state	src/apns_connection.erl	/^-record(state, {out_socket        :: tuple(),$/;"	r
+stop	src/apns.erl	/^stop() ->$/;"	f	module:apns
+stop	src/apns_app.erl	/^stop([]) -> ok./;"	f	module:apns_app
+stop	src/apns_connection.erl	/^stop(ConnId) ->$/;"	f	module:apns_connection
+terminate	src/apns_connection.erl	/^terminate(_Reason, _State) -> ok.$/;"	f	module:apns_connection
+test	src/apns_mochinum.erl	/^test() ->$/;"	f	module:apns_mochinum
+test_digits	src/apns_mochinum.erl	/^test_digits() ->$/;"	f	module:apns_mochinum
+test_frexp	src/apns_mochinum.erl	/^test_frexp() ->$/;"	f	module:apns_mochinum
+test_int_ceil	src/apns_mochinum.erl	/^test_int_ceil() ->$/;"	f	module:apns_mochinum
+test_int_pow	src/apns_mochinum.erl	/^test_int_pow() ->$/;"	f	module:apns_mochinum
+timestamp	src/apns.erl	/^timestamp(Secs) ->$/;"	f	module:apns
+tokenize	src/apns_mochijson2.erl	/^tokenize(B, S=#decoder{offset=O}) ->$/;"	f	module:apns_mochijson2
+tokenize_number	src/apns_mochijson2.erl	/^tokenize_number(B, S) ->$/;"	f	module:apns_mochijson2
+tokenize_number	src/apns_mochijson2.erl	/^tokenize_number(B, eint, S=#decoder{offset=O}, Acc) ->$/;"	f	module:apns_mochijson2
+tokenize_number	src/apns_mochijson2.erl	/^tokenize_number(B, eint1, S=#decoder{offset=O}, Acc) ->$/;"	f	module:apns_mochijson2
+tokenize_number	src/apns_mochijson2.erl	/^tokenize_number(B, esign, S=#decoder{offset=O}, Acc) ->$/;"	f	module:apns_mochijson2
+tokenize_number	src/apns_mochijson2.erl	/^tokenize_number(B, frac, S=#decoder{offset=O}, Acc) ->$/;"	f	module:apns_mochijson2
+tokenize_number	src/apns_mochijson2.erl	/^tokenize_number(B, frac1, S=#decoder{offset=O}, Acc) ->$/;"	f	module:apns_mochijson2
+tokenize_number	src/apns_mochijson2.erl	/^tokenize_number(B, int, S=#decoder{offset=O}, Acc) ->$/;"	f	module:apns_mochijson2
+tokenize_number	src/apns_mochijson2.erl	/^tokenize_number(B, int1, S=#decoder{offset=O}, Acc) ->$/;"	f	module:apns_mochijson2
+tokenize_number	src/apns_mochijson2.erl	/^tokenize_number(B, sign, S=#decoder{offset=O}, []) ->$/;"	f	module:apns_mochijson2
+tokenize_string	src/apns_mochijson2.erl	/^tokenize_string(B, S=#decoder{offset=O}) ->$/;"	f	module:apns_mochijson2
+tokenize_string	src/apns_mochijson2.erl	/^tokenize_string(B, S=#decoder{offset=O}, Acc) ->$/;"	f	module:apns_mochijson2
+tokenize_string_fast	src/apns_mochijson2.erl	/^tokenize_string_fast(B, O) ->$/;"	f	module:apns_mochijson2
+unihex	src/apns_mochijson2.erl	/^unihex(C) when C < 16#10000 ->$/;"	f	module:apns_mochijson2
+unihex	src/apns_mochijson2.erl	/^unihex(C) when C =< 16#10FFFF ->$/;"	f	module:apns_mochijson2
+unpack	src/apns_mochinum.erl	/^unpack(Float) ->    $/;"	f	module:apns_mochinum
