@@ -1,0 +1,91 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+AFTER_DAY	include/itrends_states.hrl	/^-define(AFTER_DAY, states_services_utils:get_day_next_time() +6000).$/;"	d
+CHILD	src/itrends_states_sup.erl	/^-define(CHILD(I, Type), {I, {I, start_link, []}, permanent, 5000, Type, [I]}).$/;"	d
+DAY	include/itrends_states.hrl	/^-define(DAY, 24*60*60*1000).$/;"	d
+DEBUG	include/itrends_states.hrl	/^-define(DEBUG(), error_logger:info_msg("~p:  ~p",[?MODULE, ?LINE])).$/;"	d
+DEBUG	include/itrends_states.hrl	/^-define(DEBUG(Input), $/;"	d
+DEBUG	include/itrends_states.hrl	/^-define(DEBUG(Input, Args), $/;"	d
+ERROR	include/itrends_states.hrl	/^-define(ERROR(Input, Args), $/;"	d
+SEND_DATA_HOST	include/itrends_states.hrl	/^-define(SEND_DATA_HOST, "http:\/\/cda.trends.com.cn").$/;"	d
+STATES_SERVICES_FAIL_BUCKET	include/itrends_states.hrl	/^-define(STATES_SERVICES_FAIL_BUCKET, <<"states_services_fail_bucket">>).$/;"	d
+age_services	src/age_services.erl	/^-module(age_services).$/;"	m
+code_change	src/age_services.erl	/^code_change(_OldVsn, State, _Extra) ->$/;"	f	module:age_services
+code_change	src/score_services.erl	/^code_change(_OldVsn, State, _Extra) ->$/;"	f	module:score_services
+code_change	src/sex_services.erl	/^code_change(_OldVsn, State, _Extra) ->$/;"	f	module:sex_services
+code_change	src/states_services.erl	/^code_change(_OldVsn, State, _Extra) ->$/;"	f	module:states_services
+collect_rank_parse	src/states_services_utils.erl	/^collect_rank_parse([H|T], Len, Acc)->$/;"	f	module:states_services_utils
+collect_rank_parse	src/states_services_utils.erl	/^collect_rank_parse([], Len, Acc)->$/;"	f	module:states_services_utils
+column_collect_rank	src/states_services_utils.erl	/^column_collect_rank()->$/;"	f	module:states_services_utils
+get_age	src/states_services_utils.erl	/^get_age(Date) ->$/;"	f	module:states_services_utils
+get_datetime	src/states_services_utils.erl	/^get_datetime() ->$/;"	f	module:states_services_utils
+get_datetime	src/states_services_utils.erl	/^get_datetime(Datetime) ->$/;"	f	module:states_services_utils
+get_day	src/states_services_utils.erl	/^get_day() ->$/;"	f	module:states_services_utils
+get_day	src/states_services_utils.erl	/^get_day(Datetime) ->$/;"	f	module:states_services_utils
+get_day_info	src/states_services_utils.erl	/^get_day_info() ->$/;"	f	module:states_services_utils
+get_day_next_time	src/states_services_utils.erl	/^get_day_next_time() ->$/;"	f	module:states_services_utils
+get_favorite_sum	src/score_services.erl	/^get_favorite_sum() ->$/;"	f	module:score_services
+get_female_sum	src/sex_services.erl	/^get_female_sum() ->$/;"	f	module:sex_services
+get_flowers_sum	src/score_services.erl	/^get_flowers_sum() ->$/;"	f	module:score_services
+get_mail_sum	src/states_services.erl	/^get_mail_sum() ->$/;"	f	module:states_services
+get_male_sum	src/sex_services.erl	/^get_male_sum() ->$/;"	f	module:sex_services
+get_pre_day	src/states_services_utils.erl	/^get_pre_day() ->$/;"	f	module:states_services_utils
+get_qq_sum	src/states_services.erl	/^get_qq_sum() ->$/;"	f	module:states_services
+get_seg_age	src/states_services_utils.erl	/^get_seg_age() ->$/;"	f	module:states_services_utils
+get_unknown_sum	src/sex_services.erl	/^get_unknown_sum() ->$/;"	f	module:sex_services
+get_weibo_sum	src/states_services.erl	/^get_weibo_sum() ->$/;"	f	module:states_services
+handle_call	src/age_services.erl	/^handle_call(_Request, _From, State) ->$/;"	f	module:age_services
+handle_call	src/score_services.erl	/^handle_call(_Request, _From, State) ->$/;"	f	module:score_services
+handle_call	src/sex_services.erl	/^handle_call(_Request, _From, State) ->$/;"	f	module:sex_services
+handle_call	src/states_services.erl	/^handle_call(_Request, _From, State) ->$/;"	f	module:states_services
+handle_cast	src/age_services.erl	/^handle_cast(_Request, State) ->$/;"	f	module:age_services
+handle_cast	src/score_services.erl	/^handle_cast(_Request, State) ->$/;"	f	module:score_services
+handle_cast	src/sex_services.erl	/^handle_cast(_Request, State) ->$/;"	f	module:sex_services
+handle_cast	src/states_services.erl	/^handle_cast(_Request, State) ->$/;"	f	module:states_services
+handle_info	src/age_services.erl	/^handle_info(_Info, State) ->$/;"	f	module:age_services
+handle_info	src/age_services.erl	/^handle_info(sum_age_users, State) ->$/;"	f	module:age_services
+handle_info	src/score_services.erl	/^handle_info(_Info, State) ->$/;"	f	module:score_services
+handle_info	src/score_services.erl	/^handle_info(sum_flower_favorite, State) ->$/;"	f	module:score_services
+handle_info	src/sex_services.erl	/^handle_info(_Info, State) ->$/;"	f	module:sex_services
+handle_info	src/sex_services.erl	/^handle_info(sum_sex_users, State) ->$/;"	f	module:sex_services
+handle_info	src/states_services.erl	/^handle_info(_Info, State) ->$/;"	f	module:states_services
+handle_info	src/states_services.erl	/^handle_info(sum_users, State) ->$/;"	f	module:states_services
+init	src/age_services.erl	/^init([]) ->$/;"	f	module:age_services
+init	src/itrends_states_sup.erl	/^init([]) ->$/;"	f	module:itrends_states_sup
+init	src/score_services.erl	/^init([]) ->$/;"	f	module:score_services
+init	src/sex_services.erl	/^init([]) ->$/;"	f	module:sex_services
+init	src/states_services.erl	/^init([]) ->$/;"	f	module:states_services
+itrends_states_app	src/itrends_states_app.erl	/^-module(itrends_states_app).$/;"	m
+itrends_states_sup	src/itrends_states_sup.erl	/^-module(itrends_states_sup).$/;"	m
+score_services	src/score_services.erl	/^-module(score_services).$/;"	m
+send_data	src/states_services_utils.erl	/^send_data({Type, Data}) ->$/;"	f	module:states_services_utils
+send_data	src/states_services_utils.erl	/^send_data({Type, Data}, N) ->$/;"	f	module:states_services_utils
+send_data	src/states_services_utils.erl	/^send_data({_Type, Data}, 2) ->$/;"	f	module:states_services_utils
+send_day_info	src/score_services.erl	/^send_day_info() ->$/;"	f	module:score_services
+send_rank	src/score_services.erl	/^send_rank() ->$/;"	f	module:score_services
+sex_services	src/sex_services.erl	/^-module(sex_services).$/;"	m
+start	src/itrends_states_app.erl	/^start(_StartType, _StartArgs) ->$/;"	f	module:itrends_states_app
+start_link	src/age_services.erl	/^start_link() ->$/;"	f	module:age_services
+start_link	src/itrends_states_sup.erl	/^start_link() ->$/;"	f	module:itrends_states_sup
+start_link	src/score_services.erl	/^start_link() ->$/;"	f	module:score_services
+start_link	src/sex_services.erl	/^start_link() ->$/;"	f	module:sex_services
+start_link	src/states_services.erl	/^start_link() ->$/;"	f	module:states_services
+state	src/age_services.erl	/^-record(state, {first=0, second=0, three=0, four=0}).$/;"	r
+state	src/score_services.erl	/^-record(state, {flower=0, favorite}).$/;"	r
+state	src/sex_services.erl	/^-record(state, {male=0, female=0, unknown=0}).$/;"	r
+state	src/states_services.erl	/^-record(state, {pre_total=0, pre_mail=0, pre_qq=0, pre_weibo=0}).$/;"	r
+states_services	src/states_services.erl	/^-module(states_services).$/;"	m
+states_services_utils	src/states_services_utils.erl	/^-module(states_services_utils).$/;"	m
+stop	src/itrends_states_app.erl	/^stop(_State) ->$/;"	f	module:itrends_states_app
+sum_age_users	src/age_services.erl	/^sum_age_users(State)-> $/;"	f	module:age_services
+sum_flower_favorite	src/score_services.erl	/^sum_flower_favorite(#state{flower=PreFlower, favorite=PreFavorite}=State)->$/;"	f	module:score_services
+sum_sex_users	src/sex_services.erl	/^sum_sex_users(#state{male=_PreMale, female=_PreFemale, unknown=_PreUnknown}=State)->$/;"	f	module:sex_services
+sum_users	src/states_services.erl	/^sum_users(#state{pre_total=PreTotal, pre_mail=PreMail, pre_qq=PreQq, pre_weibo=PreWeibo}=State)->$/;"	f	module:states_services
+terminate	src/age_services.erl	/^terminate(_Reason, _State) ->$/;"	f	module:age_services
+terminate	src/score_services.erl	/^terminate(_Reason, _State) ->$/;"	f	module:score_services
+terminate	src/sex_services.erl	/^terminate(_Reason, _State) ->$/;"	f	module:sex_services
+terminate	src/states_services.erl	/^terminate(_Reason, _State) ->$/;"	f	module:states_services

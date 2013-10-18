@@ -1,0 +1,11 @@
+{application,itrends_states,
+             [{description,[]},
+              {vsn,"1"},
+              {registered,[]},
+              {applications,[kernel,stdlib]},
+              {mod,{itrends_states_app,[]}},
+              {env,[]},
+              {modules,[age_services,comment_services,itrends_states_app,
+                        itrends_states_sup,score_services,sex_services,
+                        states_services,states_services_utils,
+                        type_magazine_services]}]}.

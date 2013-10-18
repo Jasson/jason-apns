@@ -1,0 +1,26 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+CHILD	eapns_sup.erl	/^-define(CHILD(I, Type), {I, {I, start_link, []}, permanent, 5000, Type, [I]}).$/;"	d
+code_change	eapns_service.erl	/^code_change(_OldVsn, State, _Extra) ->$/;"	f	module:eapns_service
+comment_count	eapns_service.erl	/^comment_count(#state{comment=_PreComment}=State)->$/;"	f	module:eapns_service
+eapns_app	eapns_app.erl	/^-module(eapns_app).$/;"	m
+eapns_service	eapns_service.erl	/^-module(eapns_service).$/;"	m
+eapns_sup	eapns_sup.erl	/^-module(eapns_sup).$/;"	m
+get_comment_sum	eapns_service.erl	/^get_comment_sum() ->$/;"	f	module:eapns_service
+handle_call	eapns_service.erl	/^handle_call(_Request, _From, State) ->$/;"	f	module:eapns_service
+handle_cast	eapns_service.erl	/^handle_cast(_Request, State) ->$/;"	f	module:eapns_service
+handle_info	eapns_service.erl	/^handle_info(_Info, State) ->$/;"	f	module:eapns_service
+handle_info	eapns_service.erl	/^handle_info(comment_count, State) ->$/;"	f	module:eapns_service
+init	eapns_service.erl	/^init([]) ->$/;"	f	module:eapns_service
+init	eapns_sup.erl	/^init([]) ->$/;"	f	module:eapns_sup
+send_message	eapns_service.erl	/^send_message(Time, Pid) ->$/;"	f	module:eapns_service
+start	eapns_app.erl	/^start(_StartType, _StartArgs) ->$/;"	f	module:eapns_app
+start_link	eapns_service.erl	/^start_link() ->$/;"	f	module:eapns_service
+start_link	eapns_sup.erl	/^start_link() ->$/;"	f	module:eapns_sup
+state	eapns_service.erl	/^-record(state, {comment=0}).$/;"	r
+stop	eapns_app.erl	/^stop(_State) ->$/;"	f	module:eapns_app
+terminate	eapns_service.erl	/^terminate(_Reason, _State) ->$/;"	f	module:eapns_service

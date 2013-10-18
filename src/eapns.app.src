@@ -1,0 +1,12 @@
+{application, eapns,
+ [
+  {description, ""},
+  {vsn, "1"},
+  {registered, []},
+  {applications, [
+                  kernel,
+                  stdlib
+                 ]},
+  {mod, { eapns_app, []}},
+  {env, []}
+ ]}.
