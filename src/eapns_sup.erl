@@ -35,10 +35,12 @@ init([]) ->
     {ok, { {one_for_one, 5, 10}, Proces} }.
 
 init_db() ->
+    application:start(mnesia),
     mnesia:create_schema([node()]),
     R = 
     mnesia:create_table(legal_apns_token,
                         [{ram_copies, [node()|nodes()]},   
                          {attributes, record_info(fields, legal_apns_token)}]),
+    io:format("R===~p~n",[{?MODULE, R}]),
     mnesia:add_table_index(legal_apns_token, msg_id).
 
