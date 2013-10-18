@@ -1,4 +1,4 @@
-erlang server for APNS depend inaka/apns4erl 
+erlang server for APNS depend on inaka/apns4erl 
 =====
 This is simple resend server, to handle invalid token or app is removed
 
